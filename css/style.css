@@ -39,7 +39,6 @@ html, body {
     height: 40px;
     width: 194px;
     padding: 10px;
-    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
 .info {
@@ -233,6 +232,6 @@ html, body {
     text-decoration: none;
 }
 
-.module-icon:hover, .module-text:hover, .module-icon-in-progress:hover, .module-text-in-progress:hover, .module-icon-locked:hover, .module-text-locked:hover {
+.module-content:hover .module-icon, .module-content:hover .module-text, .module-content:hover .module-icon-in-progress, .module-content:hover .module-text-in-progress, .module-content:hover .module-icon-locked, .module-content:hover .module-text-locked{
     box-shadow: 0 7px 8px -4px rgba(0, 0, 0, .2), 0 12px 17px 2px rgba(0, 0, 0, .14), 0 5px 22px 4px rgba(0, 0, 0, .12);
 }
